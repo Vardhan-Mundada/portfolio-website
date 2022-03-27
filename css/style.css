@@ -1,0 +1,55 @@
+@import 'utility.css'
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiase;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+header{
+    background:#161616;
+    height: 800px
+}
+.container{ 
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header nav .left a{
+    color:#FFFFFF;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+.flex{
+    display: flex;
+}
+header nav{
+    padding: 2rem 0;
+
+ }
+header nav .name{
+    margin-right: 3rem ;
+}
+header nav .left a:hover{
+    color: red;
+}
+
+.button{
+    padding:0.7rem 1.8rem;
+    font-size: 1rem;
+    font-weight:400;
+    background-color: red;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+}
+.button:hover{
+    background:transparent;
+    border-color: red;
+    color: red; 
+}
